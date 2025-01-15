@@ -1,0 +1,20 @@
+/* src/css/MainPage.css */
+.main-content {
+    margin-left: 220px; /* Adjust this value based on the width of your sidebar */
+    padding: 20px;
+}
+
+.message-input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between the text field and the button */
+}
+
+.new-message {
+    color: blue;
+}
+
+.reload-button {
+    display: block;
+    margin: 0 auto;
+}

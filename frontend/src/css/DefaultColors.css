@@ -1,0 +1,102 @@
+
+body {
+    background: linear-gradient(to bottom, #BFE8FF, #ffffff);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.background-gradient {
+    background: linear-gradient(to bottom, #BFE8FF, #ffffff);
+    min-height: 100vh;
+}
+
+.margin-all {
+    margin: 10px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.white-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #004CB0; /* Set the desired color */
+    font-family: Arial, Helvetica, sans-serif; /* Use web-safe fonts */
+}
+
+.gradient-box {
+    background: linear-gradient(to bottom, #ffffff, #BFE8FF);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    margin: 0;
+
+}
+
+.background-flipped {
+    background: linear-gradient(to top,  #BFE8FF, #ffffff);
+    min-height: 100vh;
+}
+
+.my-message {
+    background-color: #95C6FF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto; /* Center the messages horizontally */
+    outline: 2px solid #82A6FF;
+    box-sizing: border-box;
+    max-width: 90%;
+    word-break: break-word;
+}
+
+.other-message {
+    background-color: #E2EEFF;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px auto; /* Center the messages horizontally */
+    outline: 2px solid #ADD8E6;
+    box-sizing: border-box;
+    max-width: 90%;
+    word-break: break-word;
+}
+
+.padding {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.fill-ou-form {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.success-message {
+        position: absolute;
+        top: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #dff0d8;
+        color: #3c763d;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        text-align: center;
+}

@@ -1,0 +1,16 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    background-color: #BFE8FF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav button {
+    margin-left: auto;
+}
+style {
+
+}
